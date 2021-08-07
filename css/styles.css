@@ -277,13 +277,14 @@ img {
   padding-bottom: 30px;
 }
 .team-social-list {
-  width: 206px;
   display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
   margin-top: 16px;
 }
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .team-social-link {
   width: 44px;
   height: 44px;
@@ -305,12 +306,7 @@ img {
 
 /*cliets*/
 
-.section-client {
-  padding-top: 84px;
-  padding-bottom: 104px;
-}
 .client-social-list {
-  width: 1170px;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
